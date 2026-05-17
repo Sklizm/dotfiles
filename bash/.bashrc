@@ -32,6 +32,12 @@ fi
 
 export PATH=$PATH:/home/codrin/.spicetify
 
+# Default editor
+export EDITOR=nvim
+export VISUAL=nvim
+alias vi='nvim'
+alias vim='nvim'
+
 # ---- CLI productivity stack (Phase I) ----
 alias ls='eza --icons --group-directories-first'
 alias ll='eza --icons -lah --git'
