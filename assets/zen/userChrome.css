@@ -1,0 +1,96 @@
+/* Zen Browser — Everforest Dark Medium recolor
+ * Drop this in: <profile>/chrome/userChrome.css
+ * Coexists with zen-themes.css (Zen's own Mods generator).
+ */
+
+:root {
+    /* Everforest Dark Medium palette */
+    --ef-bg0:        #2d353b;
+    --ef-bg-dim:     #232a2e;
+    --ef-bg1:        #343f44;
+    --ef-bg2:        #3d484d;
+    --ef-bg3:        #475258;
+    --ef-bg4:        #4f585e;
+    --ef-bg5:        #56635f;
+    --ef-fg:         #d3c6aa;
+    --ef-grey0:      #7a8478;
+    --ef-grey1:      #859289;
+    --ef-grey2:      #9da9a0;
+    --ef-red:        #e67e80;
+    --ef-orange:     #e69875;
+    --ef-yellow:     #dbbc7f;
+    --ef-green:      #a7c080;
+    --ef-aqua:       #83c092;
+    --ef-blue:       #7fbbb3;
+    --ef-purple:     #d699b6;
+
+    /* Zen / Firefox theme vars */
+    --zen-colors-primary:     var(--ef-green);
+    --zen-colors-secondary:   var(--ef-aqua);
+    --zen-colors-border:      var(--ef-bg3);
+    --zen-colors-tertiary:    var(--ef-bg1);
+    --zen-themed-toolbar-bg:  var(--ef-bg0);
+    --toolbar-bgcolor:        var(--ef-bg0) !important;
+    --toolbar-color:          var(--ef-fg) !important;
+    --lwt-accent-color:       var(--ef-bg0) !important;
+    --lwt-text-color:         var(--ef-fg) !important;
+    --lwt-toolbar-field-background-color: var(--ef-bg1) !important;
+    --lwt-toolbar-field-color: var(--ef-fg) !important;
+    --lwt-toolbar-field-focus: var(--ef-bg2) !important;
+    --tab-selected-bgcolor:   var(--ef-bg2) !important;
+    --tab-selected-textcolor: var(--ef-fg) !important;
+    --tab-hover-background-color: var(--ef-bg1) !important;
+    --tab-line-color:         var(--ef-green) !important;
+    --urlbar-box-bgcolor:     var(--ef-bg1) !important;
+    --urlbar-popup-url-color: var(--ef-aqua) !important;
+}
+
+/* Toolbar + URL bar */
+#nav-bar,
+#PersonalToolbar,
+#titlebar,
+#TabsToolbar {
+    background-color: var(--ef-bg0) !important;
+    color: var(--ef-fg) !important;
+}
+
+#urlbar-background {
+    background-color: var(--ef-bg1) !important;
+    border-color: var(--ef-bg3) !important;
+}
+#urlbar:hover #urlbar-background,
+#urlbar[focused="true"] #urlbar-background {
+    background-color: var(--ef-bg2) !important;
+    border-color: var(--ef-green) !important;
+}
+
+/* Sidebar (Zen's signature) */
+#zen-main-app-wrapper,
+#zen-sidebar-bottom-buttons,
+#zen-tabs-wrapper,
+.zen-sidebar {
+    background-color: var(--ef-bg-dim) !important;
+}
+
+/* Active tab accent */
+.tabbrowser-tab[selected="true"] .tab-content {
+    color: var(--ef-fg) !important;
+}
+.tabbrowser-tab[selected="true"] .tab-background {
+    background-color: var(--ef-bg2) !important;
+    box-shadow: inset 0 -2px var(--ef-green) !important;
+}
+
+/* Menu popups */
+menupopup,
+panel,
+.menupopup-arrowscrollbox {
+    background-color: var(--ef-bg1) !important;
+    color: var(--ef-fg) !important;
+    border-color: var(--ef-bg3) !important;
+}
+
+/* Buttons */
+toolbarbutton:hover {
+    background-color: var(--ef-bg2) !important;
+}
