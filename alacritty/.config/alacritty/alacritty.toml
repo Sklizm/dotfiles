@@ -1,5 +1,86 @@
+[window]
+opacity = 0.95
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+
+[font]
+size = 11
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style  = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style  = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style  = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style  = "Bold Italic"
+
+# Everforest Dark — Medium
+[colors.primary]
+background = "#2d353b"
+foreground = "#d3c6aa"
+dim_foreground = "#859289"
+
+[colors.cursor]
+text   = "#2d353b"
+cursor = "#d3c6aa"
+
+[colors.vi_mode_cursor]
+text   = "#2d353b"
+cursor = "#7fbbb3"
+
+[colors.selection]
+background = "#475258"
+foreground = "#d3c6aa"
+
+[colors.search.matches]
+foreground = "#2d353b"
+background = "#a7c080"
+
+[colors.search.focused_match]
+foreground = "#2d353b"
+background = "#dbbc7f"
+
+[colors.hints.start]
+foreground = "#2d353b"
+background = "#dbbc7f"
+
+[colors.hints.end]
+foreground = "#2d353b"
+background = "#7fbbb3"
+
+[colors.footer_bar]
+foreground = "#d3c6aa"
+background = "#3d484d"
+
+[colors.normal]
+black   = "#475258"
+red     = "#e67e80"
+green   = "#a7c080"
+yellow  = "#dbbc7f"
+blue    = "#7fbbb3"
+magenta = "#d699b6"
+cyan    = "#83c092"
+white   = "#d3c6aa"
+
+[colors.bright]
+black   = "#7a8478"
+red     = "#e67e80"
+green   = "#a7c080"
+yellow  = "#dbbc7f"
+blue    = "#7fbbb3"
+magenta = "#d699b6"
+cyan    = "#83c092"
+white   = "#d3c6aa"
 
 [[keyboard.bindings]]
 key = "Return"
 mods = "Shift"
-chars = "\u001B\r"
+chars = "\u001B\u000D"

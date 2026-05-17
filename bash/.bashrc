@@ -11,8 +11,9 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
+# Cursor theme for child processes
+export XCURSOR_THEME=everforest-cursors
+export XCURSOR_SIZE=24
 
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
@@ -23,3 +24,8 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# Greet on interactive shells
+if [[ $- == *i* ]] && command -v fastfetch >/dev/null 2>&1; then
+    fastfetch
+fi
