@@ -29,3 +29,5 @@ unset rc
 if [[ $- == *i* ]] && command -v fastfetch >/dev/null 2>&1; then
     fastfetch
 fi
+
+export PATH=$PATH:/home/codrin/.spicetify
