@@ -1,0 +1,5 @@
+[Windeco]
+BlurTransparentTitleBars=true
+DrawTitleBarSeparator=false
+ShadowSize=ShadowMedium
+WindowCornerRadius=8

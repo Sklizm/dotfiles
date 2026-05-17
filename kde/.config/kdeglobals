@@ -95,7 +95,7 @@ ForegroundVisited=214,153,182
 
 [General]
 ColorScheme=Everforest
-ColorSchemeHash=7715fd9c409e8efa0516fd38da43c1c19bb12d96
+ColorSchemeHash=3234a84896fc7acf32fa38588be110d07bd8a955
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 
