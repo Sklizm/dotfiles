@@ -96,8 +96,8 @@ ForegroundVisited=214,153,182
 [General]
 ColorScheme=Everforest
 ColorSchemeHash=3234a84896fc7acf32fa38588be110d07bd8a955
-TerminalApplication=alacritty
-TerminalService=Alacritty.desktop
+TerminalApplication=kitty
+TerminalService=kitty.desktop
 
 [Icons]
 Theme=Everforest-Dark

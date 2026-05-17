@@ -86,7 +86,7 @@ tasks.writeConfig("launchers", [
     "applications:org.dnf.AppCenter.desktop",
     "file:///var/lib/flatpak/exports/share/applications/app.zen_browser.zen.desktop",
     "preferred://filemanager",
-    "applications:Alacritty.desktop",
+    "applications:kitty.desktop",
     "applications:steam.desktop",
     "applications:net.lutris.Lutris.desktop",
     "applications:com.heroicgameslauncher.hgl.desktop",
