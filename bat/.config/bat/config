@@ -1,0 +1,5 @@
+--theme="ansi"
+--style="numbers,changes,header"
+--italic-text=always
+--tabs=4
+--paging=auto

@@ -1,0 +1,41 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = false
+	line-numbers = true
+	syntax-theme = ansi
+	plus-style = "syntax #2d3a2f"
+	minus-style = "syntax #3b2e2f"
+	plus-emph-style = "syntax #3d5440"
+	minus-emph-style = "syntax #5c3c3f"
+	file-style = "#7fbbb3 bold"
+	file-decoration-style = "#475258 ul"
+	hunk-header-style = "#dbbc7f bold"
+	hunk-header-decoration-style = "#475258 box"
+	commit-decoration-style = "#a7c080 box bold"
+	minus-empty-line-marker-style = "syntax #5c3c3f"
+	plus-empty-line-marker-style = "syntax #2d3a2f"
+
+[merge]
+	conflictStyle = zdiff3
+
+[diff]
+	colorMoved = default
+
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
